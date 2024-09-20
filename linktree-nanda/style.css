@@ -1,0 +1,85 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body, html {
+    height: 100%;
+}
+
+.avatar{
+    width: 120px;
+    height: 120px;
+    object-fit: cover;
+    border-radius: 50%;
+    box-shadow: 0 0 10px rgb(185, 185, 185);
+    margin-top: 20px;
+}
+
+body{
+    background: rgb(19,20,23);
+    background: linear-gradient(180deg, rgba(19,20,23,1) 0%, rgba(185,185,255,1) 100%);
+    color: rgb(185, 185, 185);
+    font-family: "Nunito", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: bold;
+    font-style: normal;
+   
+    
+}
+
+h1 {
+    margin-top: 10px;
+    font-size: 24px;
+    
+}
+
+h2 {
+    font-family: "Kanit", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 16px;
+
+}
+.profile{
+    text-align: center;
+    
+}
+
+
+.social-links img{
+    width: 30px;
+    padding: 3px 0;
+    
+}
+
+.social-links li {
+    display: flex;
+    justify-content: space-around;
+    background-color: rgb(185, 185, 255);
+    text-decoration: none;
+    margin: 20px 15px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px gray;
+    
+}
+
+.list-links li a {
+    display: block;
+    background-color: rgb(185, 185, 255);
+    padding: 10px 20px;
+    list-style: none;
+    margin: 15px;
+    border-radius: 10px;
+    text-decoration: none;
+    box-shadow: 0 0 10px gray;
+
+}
+
+span{
+    display: block;
+    color: gray;
+    font-weight: bold;
+    margin-top: 10px;
+   
+}
